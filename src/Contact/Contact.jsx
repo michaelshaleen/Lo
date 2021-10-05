@@ -27,7 +27,7 @@ function Contact() {
       });
     }
     else{
-    emailjs.sendForm('service_ztd1adp', 'template_x3nakci', e.target, 'user_scLGKaDBeC0iWgGw5KidR')
+    emailjs.sendForm('service_9q7gwqi', 'template_smlsbgo', e.target, 'user_scLGKaDBeC0iWgGw5KidR')
       .then((result) => {
           console.log("result success", result.text);
       }, (error) => {
