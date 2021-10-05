@@ -52,15 +52,15 @@ function Contact() {
   const instagram = () => {
     window.open("https://www.instagram.com/lauren.bruun_bryant/")
   }
-
   const linkedin = () => {
     window.open("https://www.instagram.com/lauren.bruun_bryant/")
   }
+
+
   return (
     <div class="container">
     <span class="big-circle"></span>
     <img src="img/shape.png" class="square" alt="" />
-    
     <div class="form">
     <i class="fas fa-adjust"></i>
       <div class="contact-info">

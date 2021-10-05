@@ -12,10 +12,6 @@ function App() {
       <Nav />
       <Switch>
         <Route path="/contact" exact component={Contact}/>
-        {/* <Route path="/massage" exact component={Massage}/>
-        <Route path="/software" exact component={Software}/>
-        <Route path="/coach" exact component={Coach}/>
-        <Route path="/hire" exact component={Hire}/> */}
         {/* <Route path="/email" exact component={Email}/> */}
       </Switch>
     </Router>
