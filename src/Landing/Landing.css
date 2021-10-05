@@ -1,0 +1,17 @@
+.welcome {
+  color: #1abc9c;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+  padding: 5vh;
+}
+
+.intro {
+  width: 55vw;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=Landing.css.map */

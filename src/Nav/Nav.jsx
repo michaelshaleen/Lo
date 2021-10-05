@@ -7,7 +7,15 @@ function Nav() {
 
     <nav class="navbar">
     <div class="brand-title">
-      Pro by Lo
+      <div className="navbar-links">
+        <ul>
+          <li>
+          <Link to="/" className="brand-title">
+            Pro by Lo
+          </Link>
+          </li>
+        </ul>
+      </div>
       </div>
     <a href="#" class="toggle-button">
       <span class="bar"></span>
@@ -25,9 +33,13 @@ function Nav() {
         <li>
           <Link to="/services">
             Services
-            </Link>
+          </Link>
         </li>
-        <li><a href="#">About</a></li>
+        <li>
+          <Link to="/">
+            About
+          </Link>
+        </li>
       </ul>
     </div>
   </nav>

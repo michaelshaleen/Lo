@@ -28,6 +28,11 @@ body {
   margin: .5rem;
 }
 
+.brand-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .navbar-links {
   height: 100%;
 }
