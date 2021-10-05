@@ -15,12 +15,6 @@
   box-sizing: border-box;
 }
 
-body,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -48,6 +42,7 @@ textarea {
 .contact-form {
   background-color: #1abc9c;
   position: relative;
+
 }
 
 .circle {
@@ -99,6 +94,14 @@ form {
 .input-container {
   position: relative;
   margin: 1rem 0;
+  :focus {
+    .input{
+      top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+    }
+    
+  }
 }
 
 .input {
@@ -135,6 +138,8 @@ textarea.input {
   pointer-events: none;
   z-index: 1000;
   transition: 0.5s;
+  
+  
 }
 
 .input-container.textarea label {
@@ -345,6 +350,9 @@ textarea.input {
   }
 }
 
+
+
+
 @media (max-width: 480px) {
   .container {
     padding: 1.5rem;
@@ -392,3 +400,5 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+
+//////////////////////

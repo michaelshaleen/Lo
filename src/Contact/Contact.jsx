@@ -5,15 +5,12 @@ import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
 
 
-
 function Contact() {
   const [userName, setName]= useState('');
   const [userEmail, setEmail]= useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage]= useState('');
   const sent = "Email Sent! Please allow up to 24 hours for a response";
-
-
   console.log(userName, userEmail, phone, message, " here");
 
 
@@ -57,7 +54,10 @@ function Contact() {
   }
 
 
-  return (
+  return (<>
+
+  
+
     <div class="container">
     <span class="big-circle"></span>
     <img src="img/shape.png" class="square" alt="" />
@@ -104,11 +104,9 @@ function Contact() {
           </div>
         </div>
       </div>
-
       <div class="contact-form">
         <span class="circle one"></span>
         <span class="circle two"></span>
-
         <form 
           onSubmit={sendEmail}>
           <h3 class="title">Contact us</h3>
@@ -142,7 +140,7 @@ function Contact() {
               value={phone}
               onChange={(event) => setPhone(event.target.value)}/>
             <label for="">Phone</label>
-            <span>Phone</span>
+            {/* <span>Phone</span> */}
           </div>
           <div class="input-container textarea">
             <textarea 
@@ -160,7 +158,7 @@ function Contact() {
     </div>
   </div>
 
-  )
+ </> )
 }
 
 export default Contact

@@ -6,12 +6,6 @@
           box-sizing: border-box;
 }
 
-body,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -100,6 +94,12 @@ form {
 .input-container {
   position: relative;
   margin: 1rem 0;
+}
+
+.input-container :focus .input {
+  top: -0.5rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
 }
 
 .input {
