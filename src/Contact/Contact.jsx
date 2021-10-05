@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import {useState} from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
 
 
@@ -27,12 +27,12 @@ function Contact() {
       });
     }
     else{
-    // emailjs.sendForm('service_ztd1adp', 'template_x3nakci', e.target, 'user_scLGKaDBeC0iWgGw5KidR')
-      // .then((result) => {
-      //     console.log("result success", result.text);
-      // }, (error) => {
-      //     console.log("error verifyEmail", error.text);
-      // });
+    emailjs.sendForm('service_ztd1adp', 'template_x3nakci', e.target, 'user_scLGKaDBeC0iWgGw5KidR')
+      .then((result) => {
+          console.log("result success", result.text);
+      }, (error) => {
+          console.log("error verifyEmail", error.text);
+      });
     console.log("name", userName);
     console.log("email", userEmail);
     console.log("message", message);
