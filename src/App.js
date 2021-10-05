@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Nav from './Nav/Nav';
 import Contact from './Contact/Contact';
+import Services from './Services/Services';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Nav />
       <Switch>
         <Route path="/contact" exact component={Contact}/>
-        {/* <Route path="/email" exact component={Email}/> */}
+        <Route path="/services" exact component={Services}/>
       </Switch>
     </Router>
   );

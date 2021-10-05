@@ -23,7 +23,10 @@ function Nav() {
             </Link>
           </li>
         <li>
-          <Link to="/">More</Link></li>
+          <Link to="/services">
+            Services
+            </Link>
+        </li>
         <li><a href="#">About</a></li>
       </ul>
     </div>

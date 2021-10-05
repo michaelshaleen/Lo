@@ -121,7 +121,7 @@ function Contact() {
               onChange={(event) => setName(event.target.value)}
               />
             <label for="">Username</label>
-            <span>Username</span>
+            {/* <span>Username</span> */}
           </div>
           <div class="input-container">
             <input 
